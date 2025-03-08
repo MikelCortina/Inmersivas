@@ -20,7 +20,7 @@ public class Collectible : MonoBehaviour
             UpdateScoreUI(); // Actualiza el HUD
             Destroy(gameObject); // Destruye el objeto
         }
-        if (score >= 8)
+        if (score >= 12)
         {
             UpdateScoreUIFinish();
         }
